@@ -29,24 +29,8 @@ public class BankAccount {
         return accountNumber;
     }
 
-    public void setAccountNumber(String accountNumber) {
-        this.accountNumber = accountNumber;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getAccountHolderName() {
         return accountHolderName;
-    }
-
-    public void setAccountHolderName(String accountHolderName) {
-        this.accountHolderName = accountHolderName;
     }
 
     public double getBalance() {
@@ -56,6 +40,4 @@ public class BankAccount {
     public void setBalance(double balance) {
         this.balance = balance;
     }
-
-
 }
